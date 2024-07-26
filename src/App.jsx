@@ -7,11 +7,13 @@ import TodoCard from './assets/components/TodoCard'
 
 const App = () => {
   return (
-    <div className='font-container flex justify-center align-middle flex-col lg:flex-row m-10'>
-      <Todoinput />
-      <ProgressTodo />
-      <BlockedTask />
-      <CompletedTask />
+    <div className='flex justify-center flex-col align-middle'>
+      <div className='font-container flex justify-center align-middle flex-col my-10 lg:flex-row m-2'>
+        <Todoinput />
+        <ProgressTodo />
+        <BlockedTask />
+        <CompletedTask />
+      </div>
     </div>
   )
 }
